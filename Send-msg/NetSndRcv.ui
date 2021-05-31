@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NetSndRcv</class>
+ <widget class="QMainWindow" name="NetSndRcv">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Network Send &amp; Receive Example</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="vlClient1">
+      <item>
+       <widget class="QLabel" name="lblClient1">
+        <property name="text">
+         <string>Client #1</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QListWidget" name="lstClient1"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="leClient1"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="vlClient2">
+      <item>
+       <widget class="QLabel" name="lblClient2">
+        <property name="text">
+         <string>Client #2</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QListWidget" name="lstClient2"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="leClient2"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="vlServer">
+      <item>
+       <widget class="QLabel" name="lblServer">
+        <property name="text">
+         <string>Server</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QListWidget" name="lstServer"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="leServer"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
